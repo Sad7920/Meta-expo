@@ -1,6 +1,6 @@
 'use client';
 
-import { motion } from "framer-motion";
+import { motion } from 'framer-motion';
 
 import styles from '../styles';
 import { fadeIn } from '../utils/motion';
@@ -16,7 +16,7 @@ const ExploreCard = ({ id, imgUrl, title, index, active, handleClick }) => (
       alt={title}
       className="absolute object-cover w-full h-full rounded-3xl"
     />
-    {active == id ? (
+    {active === id ? (
       <div className="absolute bottom-0 flex-col justify-start w-full p-8 bg-[rgba(0,0,0,0.5)] rounded-b-3xl">
         <div className={`${styles.flexCenter} w-[60px] h-[60px] rounded-3xl glassmorphism mb-[16px]`}>
           <img src="/headset.svg" alt="headset" className="object-contain w-1/2 h-1/2" />

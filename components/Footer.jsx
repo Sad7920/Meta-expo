@@ -1,10 +1,10 @@
 'use client';
 
-import { motion } from "framer-motion";
-import { socials } from "../constants";
+import { motion } from 'framer-motion';
+import { socials } from '../constants';
 
-import styles from "../styles";
-import { footerVariants } from "../utils/motion";
+import styles from '../styles';
+import { footerVariants } from '../utils/motion';
 
 const Footer = () => (
   <motion.footer
@@ -28,7 +28,7 @@ const Footer = () => (
           <h1 className="font-extrabold text-[24px] text-white uppercase relative">Metaexpo</h1>
           <p className="font-normal text-[14px] text-white opacity-50">Copyright © 2021 - 2022 Metaexpo. All rights reserved.</p>
           <div className="flex gap-4">
-            {socials.map(social => (
+            {socials.map((social) => (
               <img src={social.url} key={social.name} alt={social.name} className="object-contain w-6 h-6 cursor-pointer hover:opacity-80" />
             ))}
           </div>
