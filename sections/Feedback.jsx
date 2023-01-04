@@ -22,7 +22,7 @@ const Feedback = () => (
           <h1 className="font-bold sm:text-[36px] text-[26px] sm:leading-[40px] leading-[36px] text-white relative">Shashant</h1>
           <p className="mt-[8px] font-normal sm:text-[18px] text-[12px] sm:leading-[22px] leading-[16px] text-white relative">Founder | Metaexpo</p>
         </div>
-        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white relative">“With the development of today's technology, metaverse is very useful for today's work, or can be called web 3.0.by using metaverse you can use it as anything”</p>
+        <p className="mt-[24px] font-normal sm:text-[24px] text-[18px] sm:leading-[45px] leading-[39px] text-white relative">“The "metaverse" is a hypothetical iteration of the Internet as a single, universal, and immersive virtual world that is facilitated by the use of virtual reality and augmented reality headsets.”</p>
       </motion.div>
       <motion.div
         variants={fadeIn('left', 'tween', 0.2, 1)}

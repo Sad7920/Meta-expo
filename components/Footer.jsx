@@ -29,7 +29,7 @@ const Footer = () => (
           <p className="font-normal text-[14px] text-white opacity-50">Copyright © 2021 - 2022 Metaexpo. All rights reserved.</p>
           <div className="flex gap-4">
             {socials.map(social => (
-              <img src={social.url} key={social.name} alt={social.name} className="cursor-pointer hover:opacity-80" />
+              <img src={social.url} key={social.name} alt={social.name} className="object-contain w-6 h-6 cursor-pointer hover:opacity-80" />
             ))}
           </div>
         </div>
